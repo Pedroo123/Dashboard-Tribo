@@ -36,26 +36,8 @@ const Sidebar = () => (
         glyph="notifications"
       />
       <LinksGroup
-        header="Components"
-        headerLink="/app/components"
-        childrenLinks={[
-          {
-            name: 'Buttons',
-            link: '/app/components/buttons',
-          },
-          {
-            name: 'Charts',
-            link: '/app/components/charts',
-          },
-          {
-            name: 'Icons',
-            link: '/app/components/icons',
-          },
-          {
-            name: 'Maps',
-            link: '/app/components/maps',
-          },
-        ]}
+        header="Graficos"
+        headerLink="/app/components/charts"
         glyph="components"
       />
     </ul>
