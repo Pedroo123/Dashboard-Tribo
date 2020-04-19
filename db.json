@@ -1,0 +1,74 @@
+{
+  "phoneData": [
+      {
+          "id": 1,
+          "operationalSystem": "IOS",
+          "phone": "Iphone6",
+          "connectedWith": "twitchAccount",
+          "twitchAccount": "twitchAcc1"
+      },
+      {
+          "id": 2,
+          "operationalSystem": "Android",
+          "phone": "MotoG7",
+          "connectedWith": "anonimous",
+          "twitchAccount": null
+      },
+      {
+          "id": 3,
+          "operationalSystem": "Android",
+          "phone": "MotoG7",
+          "connectedWith": "twitchAccount",
+          "twitchAccount": "twitchAcc2"
+      },
+      {
+          "id": 4,
+          "operationalSystem": "IOS",
+          "phone": "IphoneX",
+          "connectedWith": "twitchAccount",
+          "twitchAccount": "twitchAcc3"
+      },
+      {
+          "id": 5,
+          "operationalSystem": "IOS",
+          "phone": "Iphone6",
+          "connectedWith": "anonimous",
+          "twitchAccount": null
+      },
+      {
+          "id": 6,
+          "operationalSystem": "Android",
+          "phone": "Samsumg Galaxy 7",
+          "connectedWith": "twitchAccount",
+          "twitchAccount": "twitchAcc4"
+      },
+      {
+          "id": 7,
+          "operationalSystem": "Android",
+          "phone": "Samsumg Galaxy 7",
+          "connectedWith": "anonimous",
+          "twitchAccount": null
+      },
+      {
+          "id": 8,
+          "operationalSystem": "IOS",
+          "phone": "Iphone7",
+          "connectedWith": "twitchAccount",
+          "twitchAccount": "twitchAcc5"
+      },
+      {
+          "id": 9,
+          "operationalSystem": "Android",
+          "phone": "Xiaomi",
+          "connectedWith": "twitchAccount",
+          "twitchAccount": "twitchAcc6"
+      },
+      {
+          "id": 10,
+          "operationalSystem": "IOS",
+          "phone": "Iphone7",
+          "connectedWith": "twitchAccount",
+          "twitchAccount": "twitchAcc7"
+      }
+  ]
+}

@@ -1,5 +1,6 @@
 import React, { PureComponent } from 'react';
 import { Row, Col, Breadcrumb, BreadcrumbItem } from 'reactstrap';
+import { responseHandle } from '../../helpers/helpers';
 
 import Widget from '../../components/Widget';
 
@@ -9,11 +10,19 @@ import BarChart from './charts/BarChart';
 import PercentAreaChart from './charts/PercentAreaChart';
 import PieChart from './charts/PieChart';
 
+//Axios import
+const axios = require('axios');
 
-/**
- * TODO
- * Logica para receber os dados do mock e renderizalos no Chart
- */
+async function handleRemoteRequest() {
+  await axios.get('http://localhost:3000/phoneData')
+    .then(responseHandle)
+    .then((data) => {
+      console.log(data)
+    })
+    .catch((error) => {
+      console.log(error)
+    })
+}
 
 const data = [
   {name: 'Page A', uv: 4000, pv: 2400, amt: 2400},
