@@ -10,7 +10,7 @@ This seed project is a sort of a free version of a template that may be found on
 
 ## TO DO
 
-[ ] - Mock data  
+[ x ] - Mock data  
 
 [ ] - Style according to Gaules's Tribo (We need some favicons, and maybe another icons)  
 
